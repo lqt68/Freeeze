@@ -37,6 +37,9 @@ header nav a:hover{
 
 header nav ul .drop-list ul {
     display: none;
+}
+
+header nav ul ul {
     margin-top: 0;
 }
 
