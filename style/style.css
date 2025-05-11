@@ -3,6 +3,7 @@
 @import url(./elements/banerHome.css);
 @import url(./elements/featured.css);
 @import url(./elements/menuBox.css);
+@import url(./elements/footer.css);
 
 ul, ol, h1, h2, h3, h4, h5, h6, p, body {
     margin: 0;

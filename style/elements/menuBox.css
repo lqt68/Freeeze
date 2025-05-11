@@ -30,3 +30,7 @@
     width: 22%;
     margin: 0 1%;
 }
+
+.menubox a:hover{
+    color: #cb3362;
+}
