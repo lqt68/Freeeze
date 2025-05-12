@@ -1,0 +1,18 @@
+.blog {
+    margin: 50px 20%;
+    height: 600px;
+}
+
+.white {
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    margin: 0 20px 0 0;
+}
+
+.white h6 {
+    font-size: 24px;
+    font-family: latoR;
+    color: #cb3362;
+    
+}

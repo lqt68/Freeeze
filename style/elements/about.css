@@ -1,7 +1,6 @@
 .news {
     margin: 50px 20%;
     height: 750px;
-    width: 1600px;
 }
 
 .community {
@@ -31,10 +30,6 @@
     padding: 20px 30px;
 }
 
-.underline {
-    text-decoration: underline;
-}
-
 .community a:hover {
     color: #c8c10d;
 }
@@ -59,4 +54,15 @@
     font-family: latoR;
     color: #7a6666;
     line-height: 1.2;
+}
+
+.info a {
+    font-size: 18px;
+    font-family: latoR;
+    color: #7a6666;
+    line-height: 1.2;
+}
+
+.info a:hover {
+    color: #c8c10d;
 }
