@@ -6,6 +6,7 @@
 @import url(./elements/footer.css);
 @import url(./elements/namePage.css);
 @import url(./elements/product.css);
+@import url(./elements/about.css);
 
 ul, ol, h1, h2, h3, h4, h5, h6, p, body {
     margin: 0;
