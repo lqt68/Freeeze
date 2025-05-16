@@ -1,18 +1,140 @@
 .blog {
-    margin: 50px 20%;
-    height: 600px;
+    width: 1200px;
+    margin: 75px 20%;
+    height: 700px;
 }
 
 .white {
+    text-align: center;
     display: inline-block;
-    width: 300px;
+    width: 600px;
+}
+
+.sidebar {
+    display: block;
+    width: 350px;
     height: 600px;
+    background-color: #eee7e8;
+    padding: 20px;
+    box-sizing: border-box;
+    float: right;
     margin: 0 20px 0 0;
 }
 
-.white h6 {
+.post {
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.post img {
+    float: left;
+    width: 230px;
+    height: 230px;
+}
+
+.info h6 {
+    font-size: 20px;
+    color: #cb3362;
+    font-family: latoR;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.admin {
+    font-size: 14px;
+    color: #7a6666;
+    margin-bottom: 10px;
+}
+
+.info p {
+    padding: 3px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+button {
+    margin-top: 10px;
+    background: none;
+    border: 1px solid #cb3362;
+    color: #cb3362;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #cb3362;
+    color: white;
+}
+
+hr {
+    width: 650px;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+}
+
+.white hr{
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.load-more {
+    margin: 0 400px;
+}
+
+.sidebar h5 {
+    font-family: latoB;
     font-size: 24px;
+    text-align: center;
+    color: #cb3362;
+    margin: 20px;
+}
+
+.recent-post img {
+    width: 250px;
+    height: 250px;
+    margin: 0 13% 10px 13%;
+}
+
+.recent-post h6 {
+    font-size: 20px;
+    text-align: center;
     font-family: latoR;
     color: #cb3362;
-    
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.recent-post p {
+    text-align: center;
+    font-family: latoR;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.recent-post button {
+    margin-top: 30px;
+}
+
+.info {
+    height: 100%
+}
+
+.load-more button {
+    margin-top: 10px;
+    background: none;
+    border: 1px solid #cb3362;
+    color: #cb3362;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar button {
+    margin: 15px 90px;
 }
